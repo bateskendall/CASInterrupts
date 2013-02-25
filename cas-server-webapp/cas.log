@@ -54,3 +54,123 @@
 2013-02-20 10:32:01,035 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
 2013-02-20 10:32:01,346 WARN [org.jasig.cas.authentication.handler.support.SimpleTestUsernamePasswordAuthenticationHandler] - org.jasig.cas.authentication.handler.support.SimpleTestUsernamePasswordAuthenticationHandler is only to be used in a testing environment.  NEVER enable this in a production environment.
 2013-02-20 10:32:03,022 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Starting Quartz Scheduler now
+2013-02-22 10:41:13,999 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Starting Quartz Scheduler now
+2013-02-22 10:41:14,170 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Unauthorized Service Access for Service: [ null ] - service is not enabled in the service registry.
+2013-02-22 10:41:14,170 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Unauthorized Service Access for Service: [ null ] - service is not enabled in the service registry.
+2013-02-22 10:41:14,171 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Unauthorized Service Access for Service: [ null ] - service is not defined in the service registry.
+2013-02-22 10:41:14,171 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Unauthorized Service Access for Service: [ null ] - service is not defined in the service registry.
+2013-02-22 10:41:15,090 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2013-02-22 10:41:15,396 WARN [org.jasig.cas.authentication.handler.support.SimpleTestUsernamePasswordAuthenticationHandler] - org.jasig.cas.authentication.handler.support.SimpleTestUsernamePasswordAuthenticationHandler is only to be used in a testing environment.  NEVER enable this in a production environment.
+2013-02-22 10:41:17,035 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Starting Quartz Scheduler now
+2013-02-22 10:45:09,254 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Starting Quartz Scheduler now
+2013-02-22 10:45:09,426 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Unauthorized Service Access for Service: [ null ] - service is not enabled in the service registry.
+2013-02-22 10:45:09,426 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Unauthorized Service Access for Service: [ null ] - service is not enabled in the service registry.
+2013-02-22 10:45:09,427 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Unauthorized Service Access for Service: [ null ] - service is not defined in the service registry.
+2013-02-22 10:45:09,427 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Unauthorized Service Access for Service: [ null ] - service is not defined in the service registry.
+2013-02-22 10:45:10,345 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2013-02-22 10:45:10,651 WARN [org.jasig.cas.authentication.handler.support.SimpleTestUsernamePasswordAuthenticationHandler] - org.jasig.cas.authentication.handler.support.SimpleTestUsernamePasswordAuthenticationHandler is only to be used in a testing environment.  NEVER enable this in a production environment.
+2013-02-22 10:45:12,322 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Starting Quartz Scheduler now
+2013-02-25 10:07:29,279 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Starting Quartz Scheduler now
+2013-02-25 10:07:29,466 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Unauthorized Service Access for Service: [ null ] - service is not enabled in the service registry.
+2013-02-25 10:07:29,466 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Unauthorized Service Access for Service: [ null ] - service is not enabled in the service registry.
+2013-02-25 10:07:29,468 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Unauthorized Service Access for Service: [ null ] - service is not defined in the service registry.
+2013-02-25 10:07:29,468 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Unauthorized Service Access for Service: [ null ] - service is not defined in the service registry.
+2013-02-25 10:07:30,391 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2013-02-25 10:07:30,701 WARN [org.jasig.cas.authentication.handler.support.SimpleTestUsernamePasswordAuthenticationHandler] - org.jasig.cas.authentication.handler.support.SimpleTestUsernamePasswordAuthenticationHandler is only to be used in a testing environment.  NEVER enable this in a production environment.
+2013-02-25 10:07:32,372 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Starting Quartz Scheduler now
+2013-02-25 10:10:39,261 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Starting Quartz Scheduler now
+2013-02-25 10:10:39,433 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Unauthorized Service Access for Service: [ null ] - service is not enabled in the service registry.
+2013-02-25 10:10:39,433 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Unauthorized Service Access for Service: [ null ] - service is not enabled in the service registry.
+2013-02-25 10:10:39,433 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Unauthorized Service Access for Service: [ null ] - service is not defined in the service registry.
+2013-02-25 10:10:39,433 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Unauthorized Service Access for Service: [ null ] - service is not defined in the service registry.
+2013-02-25 10:10:40,353 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2013-02-25 10:10:40,665 WARN [org.jasig.cas.authentication.handler.support.SimpleTestUsernamePasswordAuthenticationHandler] - org.jasig.cas.authentication.handler.support.SimpleTestUsernamePasswordAuthenticationHandler is only to be used in a testing environment.  NEVER enable this in a production environment.
+2013-02-25 10:10:42,272 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Starting Quartz Scheduler now
+2013-02-25 10:14:38,332 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Starting Quartz Scheduler now
+2013-02-25 10:14:38,503 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Unauthorized Service Access for Service: [ null ] - service is not enabled in the service registry.
+2013-02-25 10:14:38,503 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Unauthorized Service Access for Service: [ null ] - service is not enabled in the service registry.
+2013-02-25 10:14:38,503 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Unauthorized Service Access for Service: [ null ] - service is not defined in the service registry.
+2013-02-25 10:14:38,503 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Unauthorized Service Access for Service: [ null ] - service is not defined in the service registry.
+2013-02-25 10:14:39,424 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2013-02-25 10:14:39,720 WARN [org.jasig.cas.authentication.handler.support.SimpleTestUsernamePasswordAuthenticationHandler] - org.jasig.cas.authentication.handler.support.SimpleTestUsernamePasswordAuthenticationHandler is only to be used in a testing environment.  NEVER enable this in a production environment.
+2013-02-25 10:14:41,358 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Starting Quartz Scheduler now
+2013-02-25 10:16:30,326 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Starting Quartz Scheduler now
+2013-02-25 10:16:30,498 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Unauthorized Service Access for Service: [ null ] - service is not enabled in the service registry.
+2013-02-25 10:16:30,498 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Unauthorized Service Access for Service: [ null ] - service is not enabled in the service registry.
+2013-02-25 10:16:30,500 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Unauthorized Service Access for Service: [ null ] - service is not defined in the service registry.
+2013-02-25 10:16:30,500 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Unauthorized Service Access for Service: [ null ] - service is not defined in the service registry.
+2013-02-25 10:16:31,419 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2013-02-25 10:16:31,725 WARN [org.jasig.cas.authentication.handler.support.SimpleTestUsernamePasswordAuthenticationHandler] - org.jasig.cas.authentication.handler.support.SimpleTestUsernamePasswordAuthenticationHandler is only to be used in a testing environment.  NEVER enable this in a production environment.
+2013-02-25 10:16:33,369 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Starting Quartz Scheduler now
+2013-02-25 10:19:41,328 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Starting Quartz Scheduler now
+2013-02-25 10:19:41,499 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Unauthorized Service Access for Service: [ null ] - service is not enabled in the service registry.
+2013-02-25 10:19:41,499 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Unauthorized Service Access for Service: [ null ] - service is not enabled in the service registry.
+2013-02-25 10:19:41,501 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Unauthorized Service Access for Service: [ null ] - service is not defined in the service registry.
+2013-02-25 10:19:41,501 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Unauthorized Service Access for Service: [ null ] - service is not defined in the service registry.
+2013-02-25 10:19:42,412 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2013-02-25 10:19:42,714 WARN [org.jasig.cas.authentication.handler.support.SimpleTestUsernamePasswordAuthenticationHandler] - org.jasig.cas.authentication.handler.support.SimpleTestUsernamePasswordAuthenticationHandler is only to be used in a testing environment.  NEVER enable this in a production environment.
+2013-02-25 10:19:44,355 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Starting Quartz Scheduler now
+2013-02-25 10:22:34,657 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Starting Quartz Scheduler now
+2013-02-25 10:22:34,830 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Unauthorized Service Access for Service: [ null ] - service is not enabled in the service registry.
+2013-02-25 10:22:34,830 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Unauthorized Service Access for Service: [ null ] - service is not enabled in the service registry.
+2013-02-25 10:22:34,832 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Unauthorized Service Access for Service: [ null ] - service is not defined in the service registry.
+2013-02-25 10:22:34,832 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Unauthorized Service Access for Service: [ null ] - service is not defined in the service registry.
+2013-02-25 10:22:35,773 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2013-02-25 10:22:36,081 WARN [org.jasig.cas.authentication.handler.support.SimpleTestUsernamePasswordAuthenticationHandler] - org.jasig.cas.authentication.handler.support.SimpleTestUsernamePasswordAuthenticationHandler is only to be used in a testing environment.  NEVER enable this in a production environment.
+2013-02-25 10:22:37,740 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Starting Quartz Scheduler now
+2013-02-25 10:28:11,902 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Starting Quartz Scheduler now
+2013-02-25 10:28:12,080 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Unauthorized Service Access for Service: [ null ] - service is not enabled in the service registry.
+2013-02-25 10:28:12,080 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Unauthorized Service Access for Service: [ null ] - service is not enabled in the service registry.
+2013-02-25 10:28:12,082 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Unauthorized Service Access for Service: [ null ] - service is not defined in the service registry.
+2013-02-25 10:28:12,082 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Unauthorized Service Access for Service: [ null ] - service is not defined in the service registry.
+2013-02-25 10:28:13,018 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2013-02-25 10:28:13,324 WARN [org.jasig.cas.authentication.handler.support.SimpleTestUsernamePasswordAuthenticationHandler] - org.jasig.cas.authentication.handler.support.SimpleTestUsernamePasswordAuthenticationHandler is only to be used in a testing environment.  NEVER enable this in a production environment.
+2013-02-25 10:28:14,974 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Starting Quartz Scheduler now
+2013-02-25 10:33:00,496 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Starting Quartz Scheduler now
+2013-02-25 10:33:00,670 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Unauthorized Service Access for Service: [ null ] - service is not enabled in the service registry.
+2013-02-25 10:33:00,670 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Unauthorized Service Access for Service: [ null ] - service is not enabled in the service registry.
+2013-02-25 10:33:00,672 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Unauthorized Service Access for Service: [ null ] - service is not defined in the service registry.
+2013-02-25 10:33:00,672 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Unauthorized Service Access for Service: [ null ] - service is not defined in the service registry.
+2013-02-25 10:33:01,621 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2013-02-25 10:33:01,934 WARN [org.jasig.cas.authentication.handler.support.SimpleTestUsernamePasswordAuthenticationHandler] - org.jasig.cas.authentication.handler.support.SimpleTestUsernamePasswordAuthenticationHandler is only to be used in a testing environment.  NEVER enable this in a production environment.
+2013-02-25 10:33:03,602 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Starting Quartz Scheduler now
+2013-02-25 10:36:09,227 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Starting Quartz Scheduler now
+2013-02-25 10:36:09,400 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Unauthorized Service Access for Service: [ null ] - service is not enabled in the service registry.
+2013-02-25 10:36:09,400 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Unauthorized Service Access for Service: [ null ] - service is not enabled in the service registry.
+2013-02-25 10:36:09,401 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Unauthorized Service Access for Service: [ null ] - service is not defined in the service registry.
+2013-02-25 10:36:09,401 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Unauthorized Service Access for Service: [ null ] - service is not defined in the service registry.
+2013-02-25 10:36:10,356 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2013-02-25 10:36:10,671 WARN [org.jasig.cas.authentication.handler.support.SimpleTestUsernamePasswordAuthenticationHandler] - org.jasig.cas.authentication.handler.support.SimpleTestUsernamePasswordAuthenticationHandler is only to be used in a testing environment.  NEVER enable this in a production environment.
+2013-02-25 10:36:12,332 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Starting Quartz Scheduler now
+2013-02-25 10:37:33,446 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Starting Quartz Scheduler now
+2013-02-25 10:37:33,614 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Unauthorized Service Access for Service: [ null ] - service is not enabled in the service registry.
+2013-02-25 10:37:33,614 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Unauthorized Service Access for Service: [ null ] - service is not enabled in the service registry.
+2013-02-25 10:37:33,616 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Unauthorized Service Access for Service: [ null ] - service is not defined in the service registry.
+2013-02-25 10:37:33,616 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Unauthorized Service Access for Service: [ null ] - service is not defined in the service registry.
+2013-02-25 10:37:34,550 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2013-02-25 10:37:34,857 WARN [org.jasig.cas.authentication.handler.support.SimpleTestUsernamePasswordAuthenticationHandler] - org.jasig.cas.authentication.handler.support.SimpleTestUsernamePasswordAuthenticationHandler is only to be used in a testing environment.  NEVER enable this in a production environment.
+2013-02-25 10:37:36,511 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Starting Quartz Scheduler now
+2013-02-25 10:39:46,086 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Starting Quartz Scheduler now
+2013-02-25 10:39:46,259 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Unauthorized Service Access for Service: [ null ] - service is not enabled in the service registry.
+2013-02-25 10:39:46,259 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Unauthorized Service Access for Service: [ null ] - service is not enabled in the service registry.
+2013-02-25 10:39:46,260 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Unauthorized Service Access for Service: [ null ] - service is not defined in the service registry.
+2013-02-25 10:39:46,260 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Unauthorized Service Access for Service: [ null ] - service is not defined in the service registry.
+2013-02-25 10:39:47,190 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2013-02-25 10:39:47,498 WARN [org.jasig.cas.authentication.handler.support.SimpleTestUsernamePasswordAuthenticationHandler] - org.jasig.cas.authentication.handler.support.SimpleTestUsernamePasswordAuthenticationHandler is only to be used in a testing environment.  NEVER enable this in a production environment.
+2013-02-25 10:39:49,157 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Starting Quartz Scheduler now
+2013-02-25 10:43:57,786 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Starting Quartz Scheduler now
+2013-02-25 10:43:57,976 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Unauthorized Service Access for Service: [ null ] - service is not enabled in the service registry.
+2013-02-25 10:43:57,976 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Unauthorized Service Access for Service: [ null ] - service is not enabled in the service registry.
+2013-02-25 10:43:57,977 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Unauthorized Service Access for Service: [ null ] - service is not defined in the service registry.
+2013-02-25 10:43:57,977 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Unauthorized Service Access for Service: [ null ] - service is not defined in the service registry.
+2013-02-25 10:43:58,904 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2013-02-25 10:43:59,211 WARN [org.jasig.cas.authentication.handler.support.SimpleTestUsernamePasswordAuthenticationHandler] - org.jasig.cas.authentication.handler.support.SimpleTestUsernamePasswordAuthenticationHandler is only to be used in a testing environment.  NEVER enable this in a production environment.
+2013-02-25 10:44:00,855 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Starting Quartz Scheduler now
+2013-02-25 10:46:16,503 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Starting Quartz Scheduler now
+2013-02-25 10:46:16,677 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Unauthorized Service Access for Service: [ null ] - service is not enabled in the service registry.
+2013-02-25 10:46:16,677 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Unauthorized Service Access for Service: [ null ] - service is not enabled in the service registry.
+2013-02-25 10:46:16,678 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Unauthorized Service Access for Service: [ null ] - service is not defined in the service registry.
+2013-02-25 10:46:16,678 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Unauthorized Service Access for Service: [ null ] - service is not defined in the service registry.
+2013-02-25 10:46:17,619 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2013-02-25 10:46:17,928 WARN [org.jasig.cas.authentication.handler.support.SimpleTestUsernamePasswordAuthenticationHandler] - org.jasig.cas.authentication.handler.support.SimpleTestUsernamePasswordAuthenticationHandler is only to be used in a testing environment.  NEVER enable this in a production environment.
+2013-02-25 10:46:19,592 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Starting Quartz Scheduler now

@@ -161,9 +161,16 @@
     <action-state id="interruptManager">
         <evaluate expression="interruptManager.interruptCheck()" result-type="java.lang.String" />
         <transition on="noInterrupt" to="serviceCheck" />
-        <transition on="interrupt" to="casAccountLockedView" />
+        <transition on="interrupt" to="faithStatement" />
     </action-state>
-
+	
+	
+	<view-state id="faithStatement" view="faithStatement" >
+		<transition on="submit" to="serviceCheck">
+           </transition>
+	</view-state>
+	
+	
 	<decision-state id="serviceCheck">
 		<if test="flowScope.service != null" then="generateServiceTicket" else="viewGenericLoginSuccess" />
 	</decision-state>
