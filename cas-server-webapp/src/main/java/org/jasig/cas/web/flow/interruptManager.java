@@ -76,7 +76,8 @@ public class interruptManager{
 		
 		}
 	
-	/** default constructor */
+	
+	//From here down is some last minute testing code, trying to understand how to interact with the property of the interruptmanager bean in deployerconfig
 	public interruptManager() {
 		
 	}

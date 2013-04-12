@@ -1,52 +1,97 @@
-/*
- * Licensed to Jasig under one or more contributor license
- * agreements. See the NOTICE file distributed with this work
- * for additional information regarding copyright ownership.
- * Jasig licenses this file to you under the Apache License,
- * Version 2.0 (the "License"); you may not use this file
- * except in compliance with the License.  You may obtain a
- * copy of the License at the following location:
- *
- *   http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing,
- * software distributed under the License is distributed on an
- * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
- * KIND, either express or implied.  See the License for the
- * specific language governing permissions and limitations
- * under the License.
- */
-
-package org.jasig.cas.web.flow;
-
-import org.jasig.cas.authentication.principal.Service;
-import org.jasig.cas.services.ServicesManager;
-import org.jasig.cas.services.UnauthorizedServiceException;
-import org.jasig.cas.web.support.WebUtils;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.webflow.action.AbstractAction;
-import org.springframework.webflow.execution.Event;
-import org.springframework.webflow.execution.RequestContext;
-
-import javax.validation.constraints.NotNull;
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.parsers.DocumentBuilder;
+import org.w3c.dom.Document;
+import org.w3c.dom.NodeList;
+import org.w3c.dom.Node;
+import org.w3c.dom.Element;
+import java.io.File;
 
 /**
- * Performs an authorization check for the gateway request if there is no Ticket Granting Ticket.
  *
  * @author Shawn Hott & Kendall Bates
- * @version $Revision$ $Date$
+ * @version 1.0 Alpha 3-4-13
  * @since 3.5.1
  */
+ 
+ 
 public class interruptManager{
 
-public String interruptCheck() {
+	
+	public static void main(String argv[]){
 
-        String x = "noInterrupt";
-        String y = "interrupt";
-        
-        
-        return y;
+				
+  try {
+ 
+	//User must specify where their deployerConfigContext.xml file sits
+	File interruptManager = new File("/Users/hotts/Documents/CAS Home/cas-server-3.5.1/cas-server-webapp/src/main/webapp/WEB-INF/deployerConfigContext.xml");
+	DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
+	DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
+	Document doc = dBuilder.parse(interruptManager);
 
+	doc.getDocumentElement().normalize();
+ 
+	NodeList nList = doc.getElementsByTagName("bean");
+	int classIndex = 0;
+	String[] classes = new String[20];
+	
+	
+	for (int temp = 0; temp < nList.getLength(); temp++) {
+					
+		Node nNode = nList.item(temp);
+		nNode.getChildNodes();
+ 		if (nNode.getNodeType() == Node.ELEMENT_NODE) {
+ 
+			Element eElement = (Element) nNode;
+			
+			
+			
+			String x = eElement.getAttribute("class");
+			x = x.toLowerCase();
+			String y = "org.huntington.cas.interruptScreens.interruptManager.HandlerClass";
+			y = y.toLowerCase();
+			
+		
+			if(x.contains(y)){
+				classes[classIndex] = x;
+				setinterruptManager(classes[classIndex]);
+								classIndex ++;
+				}
+ 		
+ 		}
+	}
+	
+		
+    } catch (Exception e) {
+	e.printStackTrace();
     }
+
+  			  
+ 	}
+	
+	
+	public static String getInterrupts(String x){
+
+		x = x.substring(x.lastIndexOf('.') + 1);
+		return x;
+		
+		}
+	
+	
+	//From here down is some last minute testing code, trying to understand how to interact with the property of the interruptmanager bean in deployerconfig
+	public interruptManager() {
+		
+	}
+
+	public String getinterruptManager(String x) {
+		return x;
+	}
+
+	public static String setinterruptManager(String x) {
+		x = x.substring(x.lastIndexOf('.') + 1);
+		return x;
+	}
+	
+	
+ 
+	    }
         
-}
