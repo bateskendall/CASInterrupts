@@ -1,6 +1,6 @@
 <jsp:directive.include file="includes/top.jsp" />
 <div class="Interrupt">
-	<p><h2> This is our interrupt screen <h2></p>
+	<p><h2> This is Test1 Interrupt Screen<h2></p>
 	<p>You must agree to the University's terms and agreements in order to continue</p>
 	
 	<FORM NAME="SubmitForm" METHOD="POST" >
