@@ -162,12 +162,11 @@
 	
 	
 
-    <bean id="interruptManager"
-        class="interruptManager">
-		<property name="interruptManager">
+    <bean id="huntingtonInterruptManager"
+        class="org.jasig.cas.web.flow.InterruptManager">
+		<property name="interruptHandlers">
 		<list>
-		<bean class="test1"/>
-		<bean class="test2"/>
+		<bean class="org.jasig.cas.web.flow.TwoTimeInterrupt"/>
 		</list>
 		</property>
 	 </bean>
