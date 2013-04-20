@@ -159,16 +159,23 @@
 	</action-state>
 	
     <action-state id="interruptManager">
-        <evaluate expression="interruptManager.interruptCheck()" result-type="java.lang.String" />
-        <transition on="noInterrupt" to="serviceCheck" />
-        <transition on="interrupt" to="faithStatement" />
+        <evaluate expression="interruptManager.getInterrupts()" result-type="java.lang.String" />
+        <transition on="" to="serviceCheck" />
+		<!--<transition on="Your Interrupt Name" to="Interrupt State ID" /> -->
+        <transition on="test1" to="test1" />
+		<transition on="test2" to="test2" />
     </action-state>
 	
 	
-	<view-state id="faithStatement" view="faithStatement" >
-		<transition on="submit" to="serviceCheck">
-           </transition>
-	</view-state>
+	<view-state id="test1" view="test1" >
+		<transition on="submit" to="serviceCheck"/>
+		<transition on="deny" to="casAccountLockedView"/>
+    </view-state>
+	
+	<view-state id="test2" view="test2" >
+		<transition on="submit" to="serviceCheck"/>
+		<transition on="deny" to="casAccountLockedView"/>
+    </view-state>
 	
 	
 	<decision-state id="serviceCheck">

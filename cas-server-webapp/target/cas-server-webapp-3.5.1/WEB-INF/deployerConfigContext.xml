@@ -162,22 +162,16 @@
 	
 	
 
-    <bean id="interruptManager"
-        class="org.jasig.cas.web.flow.interruptManager">
-        <!--<Uncomment the following and inject your own interrupt screen handlers 
-        <property name="interruptScreenHandlers">
+    <bean id="huntingtonInterruptManager"
+        class="org.jasig.cas.web.flow.InterruptManager">
+		<property name="interruptHandlers">
 		<list>
-      <bean class="org.huntington.cas.interruptHandler.<your handler class here>">
-      </bean>
+		<bean class="org.jasig.cas.web.flow.TwoTimeInterrupt"/>
 		</list>
-        </property>
-        -->
-       </bean>
+		</property>
+	 </bean>
 	
-	
-	
-	
-	
+		
 	<!-- 
 	Sample, in-memory data store for the ServiceRegistry. A real implementation
 	would probably want to replace this with the JPA-backed ServiceRegistry DAO

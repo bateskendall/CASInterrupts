@@ -12,7 +12,7 @@ import javax.validation.constraints.NotNull;
 import java.util.ArrayList;
 import java.util.List;
  
-public final class InterruptManager implements InterruptInterface {
+public final class InterruptManager {
 
 
     
