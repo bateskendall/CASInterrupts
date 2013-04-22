@@ -3,6 +3,6 @@ import java.util.List;
 
 public interface InterruptHandler{
 	
-	boolean shouldUserBeInterrupted();
+	boolean shouldUserBeInterrupted(boolean shouldInterrupt);
 	
 }
