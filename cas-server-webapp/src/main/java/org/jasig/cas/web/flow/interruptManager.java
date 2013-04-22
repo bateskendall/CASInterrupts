@@ -12,14 +12,13 @@ import javax.validation.constraints.NotNull;
 import java.util.ArrayList;
 import java.util.List;
  
-public final class InterruptManager implements InterruptInterface {
+public final class InterruptManager {
 
 
     
     private List<InterruptHandler> interruptHandlers = new ArrayList<InterruptHandler>();
 
 
-    // a bunch of stuff removed
 
 
     public void setInterruptHandlers(final List<InterruptHandler> interruptHandlers) {
@@ -29,6 +28,5 @@ public final class InterruptManager implements InterruptInterface {
     }
 
 
-    //other stuff removed
 
 }

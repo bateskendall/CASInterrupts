@@ -5,6 +5,7 @@
 	
 	<FORM NAME="SubmitForm" METHOD="POST" >
         <INPUT TYPE="submit" NAME="submit" VALUE="I agree">
+		<input type="button" onclick="https://localhost:8443/mywebapp" value="deny"/> 
     </FORM>
 </div>
 <jsp:directive.include file="includes/bottom.jsp" />
