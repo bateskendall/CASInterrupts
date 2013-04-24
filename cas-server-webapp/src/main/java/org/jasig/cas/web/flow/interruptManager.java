@@ -28,5 +28,31 @@ public final class InterruptManager {
     }
 
 
+    
+    public String doExecute(){
+    	
+    	String url = "";
+    	
+    	for (int x = 0; x<interruptHandlers.size(); x++){
+    		
+    		
+    		
+    		if (interruptHandlers.get(x).shouldUserBeInterrupted() == true){
+    			
+    			url =  interruptHandlers.get(x).getInterruptPage();
+    			
+    		}else{
+    			
+    			url = "";
+    			
+    		}
+    			
+    	}
+    		
+    		return url;
+    		
+    		
+    	}
+       
 
 }
