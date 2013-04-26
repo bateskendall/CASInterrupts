@@ -11,8 +11,11 @@ package org.jasig.cas.web.flow;
 import javax.validation.constraints.NotNull;
 import java.util.ArrayList;
 import java.util.List;
+import org.springframework.webflow.action.AbstractAction;
+import org.springframework.webflow.execution.Event;
+import org.springframework.webflow.execution.RequestContext;
  
-public final class InterruptManager {
+public final class InterruptManager extends AbstractAction {
 
 
     
@@ -29,28 +32,31 @@ public final class InterruptManager {
 
 
     
-    public String doExecute(){
+    protected Event doExecute(final RequestContext context){
     	
-    	String url = "";
+    	Event e = result("");
     	
-    	for (int x = 0; x<interruptHandlers.size(); x++){
+        	for(InterruptHandler interruptHandler : interruptHandlers){
     		
-    		
-    		
-    		if (interruptHandlers.get(x).shouldUserBeInterrupted() == true){
+    		 		
+    		if (interruptHandler.shouldUserBeInterrupted()){
     			
-    			url =  interruptHandlers.get(x).getInterruptPage();
+    			context.getRequestScope().put("interruptScreenPage", interruptHandler.getInterruptPage());
+       			e = result("interrupt");
     			
     		}else{
     			
-    			url = "";
+    			
+    			e = result("continue");
     			
     		}
     			
     	}
-    		
-    		return url;
-    		
+    	   
+    	
+    	return e;
+    	
+    	    	  	
     		
     	}
        
