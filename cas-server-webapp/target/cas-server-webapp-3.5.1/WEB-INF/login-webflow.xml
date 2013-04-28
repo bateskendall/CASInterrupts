@@ -42,7 +42,7 @@
 	</decision-state>
 	
 	<decision-state id="renewRequestCheck">
-		<if test="requestParameters.renew != '' and requestParameters.renew != null" then="serviceAuthorizationCheck" else="generateServiceTicket" />
+		<if test="requestParameters.renew != '' and requestParameters.renew != null" then="serviceAuthorizationCheck" else="interruptManager" />
 	</decision-state>
 
     <!-- Do a service authorization check early without the need to login first -->
@@ -158,30 +158,17 @@
 		<transition to="interruptManager" />
 	</action-state>
 	
-    <action-state id="interruptManager">
-        <evaluate expression="interruptManager.getInterrupts()" result-type="java.lang.String" />
-        <transition on="" to="serviceCheck" />
-		<!--<transition on="Your Interrupt Name" to="Interrupt State ID" /> -->
-        <transition on="test1" to="test1" />
-		<transition on="test2" to="test2" />
-    </action-state>
-	
-	
-	<view-state id="test1" view="test1" >
-		<transition on="submit" to="serviceCheck"/>
-		<transition on="deny" to="casAccountLockedView"/>
-    </view-state>
-	
-	<view-state id="test2" view="test2" >
-		<transition on="submit" to="serviceCheck"/>
-		<transition on="deny" to="casAccountLockedView"/>
-    </view-state>
-	
-	
+ 	
 	<decision-state id="serviceCheck">
-		<if test="flowScope.service != null" then="generateServiceTicket" else="viewGenericLoginSuccess" />
+		<if test="flowScope.service != null" then="interruptManager" else="viewGenericLoginSuccess" />
 	</decision-state>
 	
+	<action-state id="interruptManager">
+        <evaluate expression="interruptManager" />
+		<transition on="interrupt" to ="interruptView" />
+		<transition on="continue" to="generateServiceTicket" />
+	</action-state>
+		
 	<action-state id="generateServiceTicket">
         <evaluate expression="generateServiceTicketAction" />
 		<transition on="success" to ="warn" />
@@ -232,6 +219,8 @@
     
     <end-state id="viewServiceSsoErrorView" view="viewServiceSsoErrorView" />
 
+	<end-state id="interruptView" view="externalRedirect:${requestScope.interruptScreenPage}" />
+	
 	<global-transitions>
         <!-- CAS-1023 This one is simple - redirects to a login page (same as renew) when 'ssoEnabled' flag is unchecked
              instead of showing an intermediate unauthorized view with a link to login page -->

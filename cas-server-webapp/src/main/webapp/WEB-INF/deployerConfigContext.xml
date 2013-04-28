@@ -158,11 +158,8 @@
 			</map>
 		</property>
 	</bean>
-	
-	
-	
-
-    <bean id="huntingtonInterruptManager"
+		
+    <bean id="interruptManager"
         class="org.jasig.cas.web.flow.InterruptManager">
 		<property name="interruptHandlers">
 		<list>
@@ -170,8 +167,7 @@
 		</list>
 		</property>
 	 </bean>
-	
-		
+			
 	<!-- 
 	Sample, in-memory data store for the ServiceRegistry. A real implementation
 	would probably want to replace this with the JPA-backed ServiceRegistry DAO

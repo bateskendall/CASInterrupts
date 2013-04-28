@@ -33,32 +33,34 @@ public final class InterruptManager extends AbstractAction {
 
     
     protected Event doExecute(final RequestContext context){
-    	
-    	Event e = result("");
-    	
-        	for(InterruptHandler interruptHandler : interruptHandlers){
-    		
-    		 		
-    		if (interruptHandler.shouldUserBeInterrupted()){
-    			
-    			context.getRequestScope().put("interruptScreenPage", interruptHandler.getInterruptPage());
-       			e = result("interrupt");
-    			
-    		}else{
-    			
-    			
-    			e = result("continue");
-    			
-    		}
-    			
-    	}
-    	   
-    	
-    	return e;
-    	
-    	    	  	
-    		
-    	}
+         
+         //Event e = result("");
+         
+         for(InterruptHandler interruptHandler : interruptHandlers){
+                 
+                           
+                 if (interruptHandler.shouldUserBeInterrupted()){
+                         
+                                                 
+                         context.getRequestScope().put("interruptScreenPage", interruptHandler.getInterruptPage());
+                         return result("interrupt");
+                         //e = result("interrupt");
+                                                 
+                         
+                 }else{
+                         
+                         
+                         //e = result("continue");
+                       return result("continue");
+                         
+                 }
+                         
+         }
+            
+         //return e;
+                 return result("continue");        
+                 
+         }
        
 
 }
