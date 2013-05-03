@@ -164,6 +164,7 @@
 		<property name="interruptHandlers">
 		<list>
 		<bean class="org.jasig.cas.web.flow.TwoTimeInterrupt"/>
+		<bean class="org.jasig.cas.web.flow.FourTimeInterrupt"/>
 		</list>
 		</property>
 	 </bean>

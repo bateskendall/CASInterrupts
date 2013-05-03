@@ -9,6 +9,7 @@ C:\Users\hotts\.m2\repository\org\mockito\mockito-all\1.9.0\mockito-all-1.9.0.ja
 -d
 C:\Users\hotts\My Documents\cas home\cas-server-3.5.1\cas-server-webapp\target\classes
 C:\Users\hotts\My Documents\cas home\cas-server-3.5.1\cas-server-webapp\src\main\java\org\jasig\cas\util\AutowiringSchedulerFactoryBean.java
+C:\Users\hotts\My Documents\cas home\cas-server-3.5.1\cas-server-webapp\src\main\java\org\jasig\cas\web\flow\FourTimeInterrupt.java
 C:\Users\hotts\My Documents\cas home\cas-server-3.5.1\cas-server-webapp\src\main\java\org\jasig\cas\web\flow\GatewayServicesManagementCheck.java
 C:\Users\hotts\My Documents\cas home\cas-server-3.5.1\cas-server-webapp\src\main\java\org\jasig\cas\web\flow\InterruptHandler.java
 C:\Users\hotts\My Documents\cas home\cas-server-3.5.1\cas-server-webapp\src\main\java\org\jasig\cas\web\flow\InterruptManager.java

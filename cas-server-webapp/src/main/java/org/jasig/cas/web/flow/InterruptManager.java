@@ -34,7 +34,7 @@ public final class InterruptManager extends AbstractAction {
     
     protected Event doExecute(final RequestContext context){
          
-         //Event e = result("");
+         
          
          for(InterruptHandler interruptHandler : interruptHandlers){
                  
@@ -44,20 +44,20 @@ public final class InterruptManager extends AbstractAction {
                                                  
                          context.getRequestScope().put("interruptScreenPage", interruptHandler.getInterruptPage());
                          return result("interrupt");
-                         //e = result("interrupt");
+                        
                                                  
                          
                  }else{
                          
                          
-                         //e = result("continue");
+                       
                        return result("continue");
                          
                  }
                          
          }
             
-         //return e;
+        
                  return result("continue");        
                  
          }
